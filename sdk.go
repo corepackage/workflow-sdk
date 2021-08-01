@@ -9,7 +9,7 @@ import (
 )
 
 func Start(handler interface{}) {
-	paramsString := flag.String("wfparams", "", "params")
+	paramsString := flag.String("wfParams", "", "params")
 	wfInvoker := flag.Bool("wfInvoker", false, "workflow is not invoker")
 	flag.Parse()
 
